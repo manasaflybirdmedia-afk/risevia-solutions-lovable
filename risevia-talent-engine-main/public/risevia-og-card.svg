@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Risevia Solutions LLP Social Share Card</title>
+  <desc id="desc">Social share card for Risevia Solutions LLP with workforce and staffing branding.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#081326" />
+      <stop offset="52%" stop-color="#0d66d8" />
+      <stop offset="100%" stop-color="#2db7d3" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <circle cx="960" cy="120" r="180" fill="#ffffff" fill-opacity="0.08" />
+  <circle cx="1050" cy="520" r="220" fill="url(#glow)" />
+  <rect x="72" y="72" width="1056" height="486" rx="38" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.14" />
+  <rect x="112" y="132" width="96" height="96" rx="26" fill="#ffffff" fill-opacity="0.14" />
+  <text x="137" y="194" fill="#f7fbff" font-family="Arial, sans-serif" font-size="42" font-weight="700">RV</text>
+  <text x="112" y="294" fill="#f7fbff" font-family="Arial, sans-serif" font-size="62" font-weight="700">Risevia Solutions LLP</text>
+  <text x="112" y="355" fill="#f7fbff" fill-opacity="0.88" font-family="Arial, sans-serif" font-size="34">Empowering Businesses. Connecting Talent.</text>
+  <text x="112" y="440" fill="#f7fbff" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="26">Workforce and staffing solutions across IT, Healthcare, Engineering, Finance, Hospitality, and Public Sector.</text>
+  <text x="112" y="492" fill="#f7fbff" fill-opacity="0.82" font-family="Arial, sans-serif" font-size="26">Hiring support for employers. Career opportunities for professionals.</text>
+</svg>
