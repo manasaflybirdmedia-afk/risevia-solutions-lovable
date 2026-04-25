@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Briefcase, Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
+import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -8,9 +8,11 @@ const Footer = () => {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <Link to="/" className="flex items-center gap-2.5 mb-4">
-              <div className="flex h-10 w-10 items-center justify-center rounded-lg bg-primary-foreground/10">
-                <Briefcase className="h-5 w-5" />
-              </div>
+              <img
+                src="/risevia-favicon.svg"
+                alt="Risevia Solutions LLP"
+                className="h-10 w-10"
+              />
               <div className="flex flex-col leading-none">
                 <span className="font-display text-lg font-extrabold">Risevia</span>
                 <span className="text-[10px] font-medium uppercase tracking-widest opacity-70">Solutions LLP</span>

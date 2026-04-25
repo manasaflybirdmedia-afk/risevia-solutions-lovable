@@ -1,6 +1,6 @@
 import { Link, NavLink as RouterNavLink } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, Briefcase } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -21,9 +21,11 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/85 backdrop-blur-lg">
       <div className="container flex h-16 items-center justify-between md:h-20">
         <Link to="/" className="flex items-center gap-2.5 group">
-          <div className="flex h-10 w-10 items-center justify-center rounded-lg gradient-primary shadow-glow group-hover:scale-105 transition-bounce">
-            <Briefcase className="h-5 w-5 text-primary-foreground" />
-          </div>
+          <img
+            src="/risevia-favicon.svg"
+            alt="Risevia Solutions LLP"
+            className="h-10 w-10 group-hover:scale-105 transition-bounce"
+          />
           <div className="flex flex-col leading-none">
             <span className="font-display text-lg font-extrabold text-foreground">Risevia</span>
             <span className="text-[10px] font-medium uppercase tracking-widest text-muted-foreground">Solutions LLP</span>
